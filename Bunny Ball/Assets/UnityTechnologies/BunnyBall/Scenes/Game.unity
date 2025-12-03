@@ -1268,6 +1268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 951a872073a1a4e4ea1e9603564bbf6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameInstructions
+  controls: Move using the WASD keys
 --- !u!4 &1319426156
 Transform:
   m_ObjectHideFlags: 0
@@ -2355,6 +2356,11 @@ PrefabInstance:
       propertyPath: gm
       value: 
       objectReference: {fileID: 830316567}
+    - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
+        type: 3}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7443251220583942649, guid: f757b320558b7984c96b025d56b0fd51,
         type: 3}
       propertyPath: gameManager
