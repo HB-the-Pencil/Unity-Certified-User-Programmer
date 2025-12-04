@@ -9,7 +9,7 @@ public class Key : MonoBehaviour
 
     private void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }
     private void OnTriggerEnter(Collider other)
     {
